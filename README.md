@@ -41,6 +41,7 @@ The system operates on a three-tier architecture:
 * **Automated Flagging:** Instant identification of students scoring below the 50% threshold.
 ### 📊 Analytics Dashboard
 ![IMAE Analytics Dashboard](pics/Dashboard.png)
+<img src="pics/Dashboard.png" alt="IMAE Analytics Dashboard" width="500">
 *Figure 2: Real-time trend analysis and question difficulty sorting.*
 
 ## 4. Maintenance Workflow
