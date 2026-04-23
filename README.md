@@ -35,7 +35,7 @@ The system operates on a three-tier architecture:
 * **Performance Trends:** Uses sparklines to track student improvement across different modules (e.g., Hardware vs. Windows).
 * **Automated Flagging:** Instant identification of students scoring below the 50% threshold.
 ### 📊 Analytics Dashboard
-![IMAE Analytics Dashboard](pics/dashboard.png)
+![IMAE Analytics Dashboard]("pics/dashboard.png")
 *Figure 2: Real-time trend analysis and question difficulty sorting.*
 
 ## 4. Maintenance Workflow
