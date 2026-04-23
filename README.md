@@ -27,9 +27,9 @@ The system operates on a three-tier architecture:
 * Prevents browser tab switching.
 * "System Lockdown Active" handshake screen for student accountability.
 ### 🖥️ Student Portal Interface
-<img src="pics/Interface.png" alt="IMAE Lockdown Screen" width="500">
+<img src="pics/Interface.png" alt="IMAE Lockdown Screen" width="300">
 *Figure 1: The "System Lockdown" handshake screen students see after clicking start exam.*
-<img src="pics/Interface1.png" alt="IMAE Lockdown Screen" width="500">
+<img src="pics/Interface1.png" alt="IMAE Lockdown Screen" width="200">
 *Figure 2: The interface that users see when they open the app. A reward system has been included*
 
 ### Dynamic Shuffle Engine:
