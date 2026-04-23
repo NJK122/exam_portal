@@ -26,6 +26,11 @@ The system operates on a three-tier architecture:
 * Disables screenshot shortcuts (Win+Shift+S).
 * Prevents browser tab switching.
 * "System Lockdown Active" handshake screen for student accountability.
+### 🖥️ Student Portal Interface
+![IMAE Lockdown Screen](pics/Interface.png)
+*Figure 1: The "System Lockdown" handshake screen students see upon launch.*
+![IMAE Interface](pics/Interface1.png)
+*Figure 2: The interface that users see when they open the app. A reward system has been included*
 
 ###Dynamic Shuffle Engine:
 * Leverages Google Forms' randomization toggle to shuffle question order and multiple-choice options for every session, neutralizing "neighbor-copying" in a physical classroom setting.
