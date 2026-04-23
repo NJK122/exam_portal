@@ -42,6 +42,8 @@ The system operates on a three-tier architecture:
 ### 📊 Analytics Dashboard
 <img src="pics/Dashboard.png" alt="IMAE Analytics Dashboard" width="500">
 *Figure 2: Real-time trend analysis and question difficulty sorting.*
+<img src="pics/trend.png" alt="IMAE Analytics Dashboard trend analysis" width="500">
+*Figure 2: Overall trend analysis of students.*
 
 ## 4. Maintenance Workflow
 To add a new exam to the IMAE ecosystem:
