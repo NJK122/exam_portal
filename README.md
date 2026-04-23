@@ -28,11 +28,11 @@ The system operates on a three-tier architecture:
 * "System Lockdown Active" handshake screen for student accountability.
 ### 🖥️ Student Portal Interface
 <img src="pics/Interface.png" alt="IMAE Lockdown Screen" width="500">
-*Figure 1: The "System Lockdown" handshake screen students see upon launch.*
+*Figure 1: The "System Lockdown" handshake screen students see after clicking start exam.*
 <img src="pics/Interface1.png" alt="IMAE Lockdown Screen" width="500">
 *Figure 2: The interface that users see when they open the app. A reward system has been included*
 
-###Dynamic Shuffle Engine:
+### Dynamic Shuffle Engine:
 * Leverages Google Forms' randomization toggle to shuffle question order and multiple-choice options for every session, neutralizing "neighbor-copying" in a physical classroom setting.
 
 ### 📊 Pedagogical Insights (The Engine)
