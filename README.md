@@ -27,9 +27,9 @@ The system operates on a three-tier architecture:
 * Prevents browser tab switching.
 * "System Lockdown Active" handshake screen for student accountability.
 ### 🖥️ Student Portal Interface
-![IMAE Lockdown Screen](pics/Interface.png)
+<img src="pics/Interface.png" alt="IMAE Lockdown Screen" width="500">
 *Figure 1: The "System Lockdown" handshake screen students see upon launch.*
-![IMAE Interface](pics/Interface1.png)
+<img src="pics/Interface1.png" alt="IMAE Lockdown Screen" width="500">
 *Figure 2: The interface that users see when they open the app. A reward system has been included*
 
 ###Dynamic Shuffle Engine:
@@ -40,7 +40,6 @@ The system operates on a three-tier architecture:
 * **Performance Trends:** Uses sparklines to track student improvement across different modules (e.g., Hardware vs. Windows).
 * **Automated Flagging:** Instant identification of students scoring below the 50% threshold.
 ### 📊 Analytics Dashboard
-![IMAE Analytics Dashboard](pics/Dashboard.png)
 <img src="pics/Dashboard.png" alt="IMAE Analytics Dashboard" width="500">
 *Figure 2: Real-time trend analysis and question difficulty sorting.*
 
