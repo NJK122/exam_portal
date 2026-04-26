@@ -6,6 +6,7 @@
     <title>Exam Portal</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div id="warningGate" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255, 255, 255, 0.95); color:rgb(0, 0, 0); z-index:9999; display:none; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:20px;">
@@ -17,14 +18,15 @@
                 By proceeding, you acknowledge that this device is now under <b>Safe Exam Browser</b> control.
             </p>
             <ul style="text-align:left; display:inline-block; margin:20px 0;">
-                <li>🚫 All background apps will be terminated.</li>
-                <li>🚫 Unauthorized exit = <b>Automatic Disqualification</b>.</li>
-                <li>🚫 External communication is strictly monitored.</li>
+                <li>🚫 All background apps may be interrupted.</li>
+                <li>🚫 No unauthorized exit.</li>
+                <li>🚫 External communication is monitored.</li>
+                <li>🚫 <b>PROCEEDING WILL LOCK INTERFACE UNTIL TEST IS COMPLETE.</b></li>
             </ul>
             
             
             <button onclick="confirmAndGo()" style="background:#ff4d4d; color:white; border:none; padding:15px 40px; font-size:1.5rem; font-weight:bold; cursor:pointer; border-radius:50px; transition:0.3s; margin-top:20px;">
-                I AM READY TO BEGIN
+                I am ready to begin
             </button>
             <br>
             <button onclick="hideWarning()" style="background:none; color:gray; border:none; margin-top:15px; cursor:pointer; text-decoration:underline;">Go Back</button>
@@ -37,47 +39,49 @@
         </header>
 
         <div class="hero-section">
-            <img src="pics/bean.png" alt="Stay Focused" class="hero-img">
+            <section class="student-spotlight">
+                    <div class="award-wrapper">
+                        <div class="award-container">
+                            <div class="shine"></div>
+                            <div class="laurel-wreath">🏆</div>
+                            <h2 class="title">Best performer of the Class</h2>
+                            <h1 class="student-name">Nita Das</h1>
+                            <p class="description">Top Performer - April 2026</p>
+                        </div>
+                    </div>
+                </section>
         </div>
 
         <div class="exam-grid">
             <div class="exam-card">
                 <p>ASSESSMENT 1: BASIC TEST</p>
-                
                 <!-- https://www.google.com/ https://forms.gle/fQMJZbXGAYAJ7AbN6-->
-
-                <a href="javascript:void(0)" onclick="showWarning('https://www.google.com/')" class="btn-link">
-                    <div class="btn-yellow">CLICK HERE TO START 👆</div>
+                <a href="javascript:void(0)" onclick="showWarning('https://forms.gle/fQMJZbXGAYAJ7AbN6')" class="btn-link">
+                    <div class="btn-yellow">CLICK HERE TO START </div>
                 </a>
             </div>
 
             <div class="exam-card">
                 <p>ASSESSMENT 2: BASIC TEST PART 2</p>
-
                 <!-- https://www.google.com/ https://forms.gle/gWiGyEr3FK3cNBFY8-->
-
-                <a href="javascript:void(0)" onclick="showWarning('https://forms.gle/gWiGyEr3FK3cNBFY8/')" class="btn-link">
-                    <div class="btn-yellow">CLICK HERE TO START 👆</div>
+                <a href="javascript:void(0)" onclick="showWarning('https://forms.gle/gWiGyEr3FK3cNBFY8')" class="btn-link">
+                    <div class="btn-yellow">CLICK HERE TO START </div>
                 </a>
             </div>
 
             <div class="exam-card">
                 <p>ASSESSMENT 3: WINDOWS BUT HARDER</p>
-
                 <!-- https://www.google.com/ https://forms.gle/SBb6r5XaUVGH9DL47-->
-
                 <a href="javascript:void(0)" onclick="showWarning('https://www.google.com/')" class="btn-link">
-                    <div class="btn-yellow">CLICK HERE TO START 👆</div>
+                    <div class="btn-yellow">CLICK HERE TO START </div>
                 </a>
             </div>
 
             <div class="exam-card">
                 <p>ASSESSMENT 4: WINDOWS AND BASICS</p>
-
                 <!-- https://www.google.com/ https://forms.gle/wNWUSRAvSYyrhNENA-->
-
                 <a href="javascript:void(0)" onclick="showWarning('https://forms.gle/wNWUSRAvSYyrhNENA')" class="btn-link">
-                    <div class="btn-yellow">CLICK HERE TO START 👆</div>
+                    <div class="btn-yellow">CLICK HERE TO START </div>
                 </a>
             </div>
         </div>
