@@ -62,29 +62,13 @@ h1 {
 }
 
 .exam-card p {
-    font-size: 0.50rem;
+    font-size: 0.85rem;
     font-weight: 700;
     margin-bottom: 8px;
     color: #636e72;
     text-transform: uppercase;
 }
 
-/* The Yellow "Click Here" Buttons 
-.btn-yellow {
-    background-color: var(--primary-yellow);
-    color: #000;
-    padding: 18px 40px;
-    border-radius: 12px;
-    font-weight: 900;
-    font-size: 1.1rem;
-    display: block;
-    text-decoration: none;
-    border: none;
-    box-shadow: 0 4px 0px #d4b900;
-    transition: all 0.1s ease;
-    cursor: pointer;
-}
-    */
 .btn-yellow {
     /* This creates a top-to-bottom gradient */
     background: linear-gradient(to bottom, #ffeb3b 0%, #ddc108 100%); 
@@ -149,4 +133,77 @@ footer {
 
 .btn-quit:hover {
     background-color: var(--exit-red-hover);
+}
+
+/* Container adjustments for embedding */
+.award-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.award-container {
+    position: relative;
+    background: linear-gradient(145deg, #463b02, #111);
+    padding: 30px; /* Reduced padding for smaller footprint */
+    border: 5px double #d4af37; 
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 450px; /* Limits size so it doesn't take over the page */
+    color: #e0e0e0;
+    overflow: hidden;
+    font-family: 'Georgia', serif;
+    
+}
+
+
+/* Scaled down text for a smaller section */
+.laurel-wreath { font-size: 40px; margin-bottom: 10px; }
+.title { font-size: 0.9rem; letter-spacing: 2px; color: #d4af37; }
+.student-name { font-size: 2rem; color: #fff; margin: 10px 0; }
+.description { font-size: 0.85rem; color: #ccc; }
+
+/* --- SHINE EFFECT ENGINE --- */
+
+.shine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    /* Use a semi-transparent white-gold gradient */
+    background: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.15) 50%, 
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-25deg);
+    /* This connects to the @keyframes below */
+    animation: shine-move 6s infinite;
+    pointer-events: none; /* Ensures you can still click things under the shine */
+}
+
+@keyframes shine-move {
+    0% {
+        left: -100%;
+    }
+    40% {
+        left: 150%; /* The shine moves across in the first 15% of the 6s duration */
+    }
+    100% {
+        left: 150%; /* It stays off-screen for the rest of the time */
+    }
+}
+
+/* --- ADD FLOATING VIBE --- */
+.award-container {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+   
 }
