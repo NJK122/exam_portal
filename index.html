@@ -85,7 +85,7 @@
         <footer>
             <hr>
             <p class="exit-text">FINISHED YOUR WORK?</p>
-            <a href="https://www.typingclub.com/" class="btn-quit">LOGOUT & EXIT SYSTEM</a>
+            <a href="javascript:void(0)" class="btn-quit" onclick="secureExit()">LOGOUT & EXIT SYSTEM</a>
         </footer>
     </div>
 
@@ -107,6 +107,18 @@
                 window.location.href = selectedUrl; // Go to the stored link
             }
         }
+        function secureExit() {
+        // Check if we are actually running inside your Sovereign Portal
+        if (window.pywebview && window.pywebview.api) {
+            // This calls the 'exit_system' function in your main.py
+            window.pywebview.api.exit_system();
+        } else {
+            // If testing in a normal browser like Chrome, just show a message
+            alert("Security exit only works inside the CEC App.");
+            // Optional: Redirect them to the link anyway if not in the app
+            window.location.href = "https://www.typingclub.com/";
+        }
+    }
     </script>
 
 </body>
