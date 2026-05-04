@@ -5,6 +5,19 @@
 > **Last Updated:** April 2026
 
 ## Changelog
+
+## 🚀 IMAE v2.0: Adaptive Mode (Python Desktop Client)
+Designed for practical examinations and low-bandwidth environments.
+
+### Key Implementation Details:
+- **Native Wrapper:** Uses `pywebview` to serve the exam portal in a distraction-free, full-screen native window.
+- **Connection Handling:** Features a custom splash screen and delayed redirect logic to handle intermittent Wi-Fi connectivity.
+- **Multitasking Support:** Optimized for practical tests where students must interact with Microsoft Office or Windows OS to solve problems.
+
+### Version Comparison:
+- **Strict Mode (v1.0):** Best for theory; uses SEB for total OS lockdown.
+- **Adaptive Mode (v2.0):** Best for practicals; uses Python .exe for flexibility and network resilience.
+  
 ### [1.0.0] - 2026-04-23
 - Initial release of the IMAE ecosystem.
 - Integrated Safe Exam Browser (SEB) with GitHub portal.
